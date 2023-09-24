@@ -51,4 +51,4 @@
 ## 🍀 Members
 | [![텍스트](https://avatars.githubusercontent.com/u/108182934?v=4)](https://github.com/jina4066) | [![텍스트](https://avatars.githubusercontent.com/u/93811505?v=4)](https://github.com/yejin2021) | [![텍스트](https://avatars.githubusercontent.com/u/108409327?v=4)](https://github.com/YU-JIN-JUNG) | [![텍스트](https://avatars.githubusercontent.com/u/113088025?v=4)](https://github.com/seungwoohan12) | [![텍스트](https://avatars.githubusercontent.com/u/80230701?v=4)](https://github.com/PROMLEE) | 
 |:---:|:---:|:---:|:---:|:---:|
-| 율/권건율 | 래비/김민표 | 닉스/김세빈 | 스이/이가은 | 제로/장난영 |
+| 베리/김지나 | 젠/김예진 | 찌니/정유진 | 에이스/한승우 | 프롬/이동훈 |
