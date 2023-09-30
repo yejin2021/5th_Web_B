@@ -4,6 +4,6 @@ Mission : 회원 가입 페이지를 만들고 자바스크립트를 활용하�
 
 [구현 page link](https://promlee.github.io/WEB_UMC_PROME/PROME/Chapter2/main.html)
 
-![구현 image](result1.png)  
-![구현 image](result2.png)  
-![구현 image](result3.png)
+![구현 image](sources/result1.png)  
+![구현 image](sources/result2.png)  
+![구현 image](sources/result3.png)
