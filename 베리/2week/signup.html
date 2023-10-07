@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>SIGNUP</title>
+  <link rel="stylesheet" href="signup.css" />
+</head>
+<body>
+  <div class="container">
+    <h1 id="container-title">회원 가입</h1>
+    <hr width="60%" style="margin-bottom: 30px"/>
+    <div class="signup-area" >
+      <div class="signup-text" id="name">이름</div>
+      <input type="text"/>
+      <div class="error-message">필수 입력 항목입니다!</div>
+      <div class="success-message">멋진 이름이네요!</div>
+    </div>
+    <div class="signup-area" >
+      <div class="signup-text" >닉네임</div>
+      <input type="text" id="nickname"/>
+      <div class="error-message">닉네임은 2~5글자로 구성해주세요!</div>
+      <div class="success-message">멋진 닉네임이군요!</div>
+    </div>
+    <div class="signup-area">
+      <div class="signup-text" >이메일</div>
+      <input type="email" id="email"/>
+      <div class="error-message">올바른 메일 형식이 아닙니다!</div>
+      <div class="success-message">올바른 메일 형식입니다!</div>
+    </div>
+    <div class="signup-area">
+      <div class="signup-text">비밀번호</div>
+      <input type="password" id="password"/>
+      <div class="error-message">영어+숫자+특수문자를 조합하여 작성해주세요!</div>
+      <div class="success-message">안전한 비밀번호입니다!</div>
+    </div>
+    <div class="signup-area">
+      <div class="signup-text" >비밀번호 확인</div>
+      <input type="password" id="check-password"/>
+      <div class="error-message">비밀번호가 일치하지 않습니다!</div>
+      <div class="success-message">비밀번호가 일치합니다!</div>
+    </div>
+
+    <input id="signup-btn" type="button" value="가입하기" />
+    
+    <div class="wrapper">
+      <div id="modal">
+        <h1>가입 성공!</h1>
+        <h3>umc 챌린저 가입을 축하합니다!!</h3>
+        <button id="close-btn">닫기</button>
+      </div>
+    </div>
+  </div>
+  <script src="new-signup.js"></script>
+</body>
+</html>
