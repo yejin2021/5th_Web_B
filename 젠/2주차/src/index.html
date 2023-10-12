@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>회원가입</title>
+    <script src="index.js"></script>
+    <meta charset="UTF-8" />
+  </head>
+  <body>
+    <div class="container">
+      <div class="register">
+        <h1>회원 가입</h1>
+        <div class="label">이름</div>
+        <div class="form">
+          <input type="text" id="userId" />
+        </div>
+        <div class="error" id="nameError"></div>
+
+        <div class="label">닉네임</div>
+        <div class="form">
+          <input type="text" id="nickname" />
+        </div>
+        <div class="error" id="nicknameError"></div>
+
+        <div class="label">이메일</div>
+        <div class="form">
+          <input type="email" id="userEmail" />
+        </div>
+        <div class="error" id="emailError"></div>
+
+        <div class="label">비밀번호</div>
+        <div class="form">
+          <input type="password" id="pass" />
+        </div>
+        <div class="error" id="passError"></div>
+
+        <div class="label">비밀번호 확인</div>
+        <div class="form">
+          <input type="password" id="pass2" />
+        </div>
+        <div class="error" id="pass2Error"></div>
+
+        <input type="submit" value="가입하기" id="submitButton" />
+      </div>
+    </div>
+
+    <div id="successModal" class="modal">
+      <div class="modal-content">
+        <span class="close">&times;</span>
+        <p>가입 성공!</p>
+      </div>
+    </div>
+  </body>
+</html>
