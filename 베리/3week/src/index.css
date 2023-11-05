@@ -6,7 +6,7 @@ body {
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
-  width: 1600px;
+  width: 1600px;  
   margin: 0 auto;
 }
 
@@ -51,7 +51,6 @@ body {
   background-color: rgba(0, 0, 0, 0.7); 
   font-size: 10px;
   color: white; 
-  /* overflow: auto; 내용이 많을 경우 스크롤바가 나타나게 설정 */
   padding: 10px; 
   z-index: 1; 
   display: flex; 
@@ -72,4 +71,50 @@ body {
   margin: 0; 
   font-size: 10px;
   color: rgb(183, 183, 183); 
+}
+
+.header {
+  width: 100%;
+  background-color: #032541;
+  display: flex;
+  text-align: center;
+}
+
+.logo {
+  width: 154px;
+  height: 20px;
+  margin-top: 16px;
+  margin-left: 80px;
+  margin-right: 10px;
+}
+
+.nav {
+  list-style: none;
+  padding: 0;
+}
+
+.nav li {
+  color: white !important;
+  float: left;
+  padding-left: 25px;
+}
+
+.Adbutton {
+  margin-left: 5px;
+}
+
+.loginbutton {
+  margin-top: 12px;
+  margin-left: 40px;
+  width: 80px;
+  height: 30px;
+  border-radius: 25px;
+  font-weight: bold;
+  font-size: 14px;
+  border-color: none;
+}
+
+.logintext {
+  color: white;
+  margin-left: 20px;
 }
