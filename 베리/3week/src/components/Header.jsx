@@ -15,7 +15,7 @@ export default function Header() {
         </Link>
       
         <ul className='nav'>
-          <Link to="/Movie">
+          <Link to="/Movies">
             <li>영화</li>
           </Link>
           <Link to="/TV">

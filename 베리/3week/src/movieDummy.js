@@ -396,4 +396,6 @@ export const movies = {
   ],
   "total_pages": 5,
   "total_results": 83
-}
+};
+
+export default movies;
